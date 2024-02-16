@@ -1,0 +1,30 @@
+<section class ="formtime">
+    <div class = "container-fluid">
+      <h2>Give us feedback or ask questions</h2>
+      <form action = "process-form.php" method ="post">
+        <div class ="form-group">
+          <label for ="name">Please enter your first and last name:</label>
+          <input type ="text" id ="fullname" size ="50" maxlength="50" class="form-control">
+        </div></br>
+        <div class ="form-group">
+          <label for ="email">Please enter a valid email address:</label>
+          <input type ="text" id ="contact" size ="50" maxlength="50" class="form-control">
+        </div></br>
+        <div class="form-group">
+          <label for ="topic">Select a relevent topic your post relates to:</label>
+          <select class="form-control"id="topic"name="relevant">
+            <option>Personal training services specifics</option>
+            <option>Personal question for Tompkins</option>
+            <option>feedback about the website</option>
+            <option>other</option>
+          </select>
+        </div></br>
+        <div class ="form-group">
+          <label for ="feedback">Give Feedback or have any questions? Enter here:</label>
+          <textarea id="feedback" name ="feedback" class="form-control"></textarea>
+        </div></br>
+        <input type ="submit" value="Submit feedback" class="btn btn-primary">
+        <input id ="clearButton" type ="reset" value ="Clear" class="btn btn-warning">
+      </form>
+    </div>
+  </section>
